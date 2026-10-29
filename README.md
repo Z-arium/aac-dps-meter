@@ -46,4 +46,4 @@ pip install lupa
 python3 -m unittest discover -s tests
 ```
 
-Releases: push a tag like `v0.1.0` (bump `version` in `main.lua` first) and CI publishes a GitHub release.
+Releases: bump `version` in `main.lua`, then push a tag like `v0.1.0`, or run the ci workflow by hand with that tag as its input. CI runs the tests and publishes the GitHub release.
