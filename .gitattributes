@@ -1,0 +1,5 @@
+# Keep the release download to just the addon
+tests export-ignore
+.github export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
